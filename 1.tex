@@ -1,7 +1,10 @@
-\documentclass[12pt]{report}
+\documentclass[12pt,twoside]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 \graphicspath{ {images/} }
 \title{
 {Designing and implementing an smart monitoring and management system of environmental and electrical conditions of server rooms
@@ -19,9 +22,15 @@
 \date{30 Jan 2023}
 
 \begin{document}
+\fancyhead{}
+\fancyhead[RO,LE]{Designing and implementing an smart monitoring and management system of environmental and electrical conditions of server rooms}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{A. Mokadar Daemdoost, P. Abbasi}
     \maketitle
     \begin{abstract}
-        Abstract
+       
     \end{abstract}
     \tableofcontents
 
@@ -37,7 +46,9 @@
     The endmatter
 
     \appendix
-    \chapter{Appendix Title}
+    \chapter{Tables}
     \input{chapters/appendix}
 
+\bibliographystyle{ieeetr}
+\bibliography{ref}
 \end{document}
