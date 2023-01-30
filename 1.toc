@@ -5,6 +5,10 @@
 \contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Methodology}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Results}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Generated data for temperature sensor}{6}{subsection.2.3.1}%
-\contentsline {chapter}{\numberline {3}Conclusion}{8}{chapter.3}%
-\contentsline {chapter}{\numberline {A}Tables}{9}{appendix.A}%
+\contentsline {subsection}{\numberline {2.3.1}Generated temperature sensor data}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Generated humidity sensor data}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Generated dust sensor data}{8}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Generated electricity voltage sensor data}{8}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Generated electricity current sensor data}{10}{subsection.2.3.5}%
+\contentsline {chapter}{\numberline {3}Conclusion}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {A}Tables}{12}{appendix.A}%
