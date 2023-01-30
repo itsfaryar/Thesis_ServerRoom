@@ -1,9 +1,104 @@
 
 \section{Backgrounds}
-Server rooms are a critical component of today's technology-driven world: with the growing reliance on and need for technological devices, ensuring that server rooms function properly has become an essential part of our daily lives. Server rooms are important to an organization because they contain infrastructure and critical equipment. Monitoring various parameters such as temperature, humidity, electricity and others helps ensure that the system is running smoothly. The first step in monitoring server rooms is to understand the different parameters that need to be monitored. The following is a list of common parameters that should be monitored in server rooms:\\
-\begin{itemize}
-    \item Temperature
-        \begin{description}
-            \item Server room temperature should be maintained at a stable, suitable level to ensure the proper functioning of equipment. The recommended range of temperatures is between 18°C and 27°C. \cite{ASHRAE_Storage_White_Paper_2015}
-        \end{description}
-\end{itemize}
+    Server rooms are a critical component of today's technology-driven world: with the growing reliance on and need for technological devices, ensuring that server rooms function properly has become an essential part of our daily lives. Server rooms are important to an organization because they contain infrastructure and critical equipment. Monitoring various parameters such as temperature, humidity, electricity and others helps ensure that the system is running smoothly. The first step in monitoring server rooms is to understand the different parameters that need to be monitored. The following is a list of common parameters that should be monitored in server rooms :\\
+    \begin{itemize}
+        \item Temperature
+            \begin{description}
+                \item Server room temperature should be maintained at a stable, suitable level to ensure the proper functioning of equipment. The recommended range of temperatures is between 18°C and 27°C.  \cite{ASHRAE_Storage_White_Paper_2015}
+                \begin{description}
+                    \item[Too high temperature:] If the temperature inside a server room rises above the recommended range, it can cause several problems. High temperatures can make equipment operate less efficiently and potentially fail altogether. High temperatures can also decrease the life expectancy of electronic devices and increase the chance that stored data will be corrupted. \cite{data_center_cooling}
+                    \item[Too low temperature:] If the temperature in a server room is allowed to fall below the recommended range, it can cause several issues. The cold air can lead to condensation—which leads directly to corrosion and equipment damage. In addition, low temperatures can decrease the efficiency of equipment and make it more likely to fail. \cite{data_center_cooling}
+                \end{description}
+            \end{description}
+        \item Humidity
+            \begin{description}
+                \item On the other hand, High humidity levels can lead to condensation, which causes corrosion of the equipment and short circuits. High humidity levels can also create conditions that are conducive to the growth of mold and other microorganisms, which in turn damage equipment and affect indoor air quality. \cite{10.1115/IPACK2015-48176}
+            \end{description}
+        \item Dust
+            \begin{description}
+                \item Dust accumulation in a server room can degrade the performance and lifespan of equipment. Dust can block air vents, causing overheating, and it also attracts moisture leading to corrosion or other problems. So monitoring the levels of dust in a server room can help identifying and addressing potential problems.
+            \end{description}
+        \item Water Leakage
+            \begin{description}
+                \item Serious consequences can result from water leakage in a server room, even if only a small amount of water leaks onto equipment. It is important to have proper monitoring systems and alerts that will notify personnel as soon as possible after any leak occurs. \cite{telecommunications2010tia}
+            \end{description}
+        \item Electricity
+            \begin{description}
+                \item Monitoring the state of electricity, including voltage and current, is important in a server room to ensure the stability and reliability of the power supply to the equipment. Electrical voltage and current fluctuations can lead to problems with electronic equipment, such as data loss and corruption. In order to minimize these risks, server rooms are typically equipped with uninterruptible power supplies (UPS) and surge protection devices that help stabilize the voltage. The following list contains some common ranges for voltage and current.\cite{telecommunications2010tia}
+                \begin{description}
+                    \item[Voltage:] The recommended operating range in from 208V to 240V and the maximum recommended limit is 264V.
+                    \item[Current:] The recommended operating range in from 20A to 40A (per phase)
+                \end{description}
+            \end{description}
+        \item Movement
+            \begin{description}
+                \item Movement sensors, also known as motion detectors, can be used in order to detect unauthorized access to the room by detecting movements within the room and alerting the administrators.
+                \begin{description}
+                    \item[Voltage:] The recommended operating range in from 208V to 240V and the maximum recommended limit is 264V.
+                    \item[Current:] The recommended operating range in from 20A to 40A (per phase)
+                \end{description}
+            \end{description}
+        \end{itemize}
+
+        \section{Purpose}
+            The purpose of this thesis is to demonstrate how an effective and efficient monitoring system can be implemented for server rooms using sensors, which are introduced in three categories in the tables \ref{electrical_sensors_table}, \ref{envirement_sen_table} and \ref{security_sen_table}. The system will be designed to provide real-time data to a website, so that it can be monitored anywhere with internet access. This thesis will examine how this system was designed and implemented, including the selection of sensors and development of an online panel for monitoring data visualization.
+            
+            \begin{table}
+                \centering
+                \caption{Electrical sensors}
+                \begin{tabular}{ |c|c|c|c|c|c|}
+                \hline
+                {\textbf{Name}} & {\textbf{Measurement Unit}} & {\textbf{Output}} \\ 
+                \hline
+
+                Voltage Sensor & Volt &  ADC \\
+                \hline
+                
+                Current Sensor & Volt &  ADC \\
+                \hline
+                \end{tabular}
+                \label {electrical_sensors_table}
+            \end{table}
+               
+            \begin{table}
+                \centering
+                \caption{Environment sensors}
+                \begin{tabular}{ |c|c|c|c|c|c|}
+                    \hline
+                    {\textbf{Name}} & {\textbf{Measurement Unit}} & {\textbf{Operating temp}}& {\textbf{Desired values}}   \\ 
+                    \hline
+
+                    Temperature sensor & Celsius & -20°C - 50°C & 18°C - 27°C\\
+                    \hline
+                    Smoke sensor &  - & -20°C - 50°C & -  \\
+                    \hline
+                    Humidity sensor & Percent &  -20°C - 50°C & 40\% - 60\% \\
+                    \hline
+                    Water Leakage Sensor &  - & -20°C - 50°C & -  \\
+                    \hline
+                    Dust sensor &  - & -20°C - 50°C & -  \\
+                    \hline
+                \end{tabular}
+                \label {envirement_sen_table}
+            \end{table}
+        
+            \begin{table}
+                \centering
+                \caption{Security sensors}
+                \begin{tabular}{ |c|c|c|c|c|c|}
+                    \hline
+                    {\textbf{Name}}  \\ 
+                    \hline
+
+                    Movement sensor  \\
+                    \hline
+                    Fingerprint sensor  \\
+                    \hline
+                    Camera \\
+                    \hline
+                \end{tabular}
+                \label{security_sen_table}
+            \end{table}
+          
+
+

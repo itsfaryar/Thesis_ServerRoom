@@ -6,4 +6,21 @@ A.~T. C.~T. 9.9, ``Data center storage equipment thermal guidelines, issues,
   \url{https://resourcecenter.ashrae.org/File%20Library/Technical%20Resources/Bookstore/ASHRAE_Storage_White_Paper_2015.pdf},
   2015.
 
+\bibitem{data_center_cooling}
+``Data center cooling best practices.''
+  \url{https://www.datacenterknowledge.com/data-center-cooling-best-practices/},
+  Feb 2017.
+
+\bibitem{10.1115/IPACK2015-48176}
+{\em {Effect of Relative Humidity, Temperature and Gaseous and Particulate
+  Contaminations on Information Technology Equipment Reliability}}, vol.~Volume
+  1: Thermal Management of {\em International Electronic Packaging Technical
+  Conference and Exhibition}, 07 2015.
+\newblock V001T09A015.
+
+\bibitem{telecommunications2010tia}
+T.~I. Association {\em et~al.}, ``Tia-942 telecommunications infrastructure
+  standard for data centers,'' {\em Arlington Virginia: Telecommunications
+  Industry Assn}, 2010.
+
 \end{thebibliography}
