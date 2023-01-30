@@ -4,6 +4,9 @@
 \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
 \usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength{\headheight}{27.5pt}
 \pagestyle{fancy}
 \graphicspath{ {images/} }
 \title{
@@ -26,8 +29,8 @@
 \fancyhead[RO,LE]{Designing and implementing an smart monitoring and management system of environmental and electrical conditions of server rooms}
 \fancyfoot{}
 \fancyfoot[LE,RO]{\thepage}
-\fancyfoot[LO,CE]{Chapter \thechapter}
-\fancyfoot[CO,RE]{A. Mokadar Daemdoost, P. Abbasi}
+\fancyfoot[LO,RE]{Chapter \thechapter}
+\fancyfoot[CO,CE]{A. Mokadar Daemdoost, P. Abbasi}
     \maketitle
     \begin{abstract}
        
@@ -37,7 +40,7 @@
     \chapter{Introduction}
     \input{chapters/introduction}
 
-    \chapter{Chapter Two Title}
+    \chapter{Data Generator Selection and Implementation}
     \input{chapters/chapter02}
 
 
