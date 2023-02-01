@@ -23,4 +23,14 @@ T.~I. Association {\em et~al.}, ``Tia-942 telecommunications infrastructure
   standard for data centers,'' {\em Arlington Virginia: Telecommunications
   Industry Assn}, 2010.
 
+\bibitem{saba2022anomaly}
+T.~Saba, A.~Rehman, T.~Sadad, H.~Kolivand, and S.~A. Bahaj, ``Anomaly-based
+  intrusion detection system for iot networks through deep learning model,''
+  {\em Computers and Electrical Engineering}, vol.~99, p.~107810, 2022.
+
+\bibitem{stallings2007network}
+W.~Stallings, {\em Network Security Essentials: Applications and Standards}.
+\newblock William Stallings books on computer and data communications
+  technology, Prentice Hall, third~ed., 2007.
+
 \end{thebibliography}

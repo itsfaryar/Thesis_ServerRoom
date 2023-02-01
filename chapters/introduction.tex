@@ -1,6 +1,8 @@
 
 \section{Backgrounds}
-    Server rooms are a critical component of today's technology-driven world: with the growing reliance on and need for technological devices, ensuring that server rooms function properly has become an essential part of our daily lives. Server rooms are important to an organization because they contain infrastructure and critical equipment. Monitoring various parameters such as temperature, humidity, electricity and others helps ensure that the system is running smoothly. The first step in monitoring server rooms is to understand the different parameters that need to be monitored. The following is a list of common parameters that should be monitored in server rooms :\\
+Server rooms are a critical component of today's technology-driven world, with the growing reliance on and need for technological devices, ensuring that server rooms function properly has become an essential part of our daily lives. Server rooms are important to an organization because they contain infrastructure and critical equipment. Monitoring various parameters such as temperature, humidity, electricity and others helps ensure that the system is running smoothly and the first step in monitoring server rooms is to understand the different parameters that need to be monitored. 
+\subsection{Monitoring the environment}
+    A monitoring system should be able to monitor the environment of the server room and alert the administrators in case of any abnormality. The following list contains some of the most important parameters that should be monitored in a server room.
     \begin{itemize}
         \item Temperature
             \begin{description}
@@ -37,7 +39,36 @@
             \begin{description}
                 \item Movement sensors, also known as motion detectors, can be used in order to detect unauthorized access to the room by detecting movements within the room and alerting the administrators.
             \end{description}
+        \item Smoke
+            \begin{description}
+                \item Smoke sensors can be used to detect smoke and alert the administrators in case of a fire.
+            \end{description}
+        \item Authorization
+            \begin{description}
+                \item Authorization sensors can be used to detect unauthorized access to the room by detecting the presence of a specific person.
+            \end{description}
         \end{itemize}
+        \subsection{Security}
+        Another aspect of a monitoring system is that it should be able to prevent any intrusions and ensure that data remains intact and that access is restricted to only those with the appropriate privileges.
+        \begin{itemize}
+            \item Confidentiality And Authentication
+                \begin{description}
+                    \item in every IOT system, a proper authentication is crucial to ensure the security of the data so it wouldn't get into the wrong hands or get mutated by malicious actors and because the data is being transmitted remotely, more security measures has to be taken. \cite{saba2022anomaly,stallings2007network}
+                \end{description}
+            \item Authorization
+            \begin{description}
+                \item Security and reliability are the most important factors in our use case of network and other security measure implementations. There are trade offs like losing flexibility but these are the trade offs that we are willing to make to reach the maximum level of security possible.\cite{saba2022anomaly,stallings2007network}
+            \end{description}
+        \item Integrity
+            \begin{description}
+                \item In an IOT system, there is a risk of intruders attempting to impersonate legitimate users and alter or manipulate data. So it is important to implement verification and encryption methods to make sure in an event of a breach, the integrity of the data is still ensured and no nefarious actor in the system can mutate or access the data in any way because the consequences can be quite catastrophic. \cite{saba2022anomaly,stallings2007network}
+            \end{description}
+        \end{itemize}
+        \subsection{Real-time monitoring}
+        Real-time monitoring is important in a monitoring system to ensure that the administrators are notified as soon as possible in case of any abnormality.
+        \subsection{Data Visualization}
+        Data visualization is an important part of a monitoring system, because it can provide a clear and compact representation of the data sent by the sensors. This allows administrators to quickly and easily identify trends, patterns, and anomalies in the server room environment, such as changes in temperature, humidity, power, and other environmental factors.\\
+        Data visualization can be achieved through a variety of means, such as graphs, charts, and maps. These visual representations can provide a lot of information in real-time, allowing administrators to make informed decisions about the state of their server room and respond quickly to any issues or problems. For example, graphs can be used to track trends over time
 
         \section{Purpose}
             The purpose of this thesis is to demonstrate how an effective and efficient monitoring system can be implemented for server rooms using sensors, which are introduced in three categories in the tables \ref{table:electrical_sensors}, \ref{table:envirement_sen} and \ref{table:security_sen}. The system will be designed to provide real-time data to a website, so that it can be monitored anywhere with internet access. This thesis will examine how this system was designed and implemented, including the selection of sensors and development of an online panel for monitoring data visualization.
