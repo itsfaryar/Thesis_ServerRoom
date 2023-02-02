@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ASHRAE_Storage_White_Paper_2015}
 A.~T. C.~T. 9.9, ``Data center storage equipment thermal guidelines, issues,
@@ -32,5 +32,26 @@ T.~Saba, A.~Rehman, T.~Sadad, H.~Kolivand, and S.~A. Bahaj, ``Anomaly-based
 W.~Stallings, {\em Network Security Essentials: Applications and Standards}.
 \newblock William Stallings books on computer and data communications
   technology, Prentice Hall, third~ed., 2007.
+
+\bibitem{nodejs}
+Node.js, ``Node.js.'' \url{https://nodejs.org/}.
+
+\bibitem{postgresql}
+P.~G.~D. Group, ``{PostgreSQL}.'' \url{https://www.postgresql.org/}, Feb. 2023.
+
+\bibitem{prisma}
+``Prisma {\textbar} {Next}-generation {ORM} for {Node}.js \& {TypeScript}.''
+  \url{https://www.prisma.io/}.
+
+\bibitem{react}
+``React – {A} {JavaScript} library for building user interfaces.''
+  \url{https://reactjs.org/}.
+
+\bibitem{nextjs}
+``Next.js by {Vercel} - {The} {React} {Framework}.'' \url{https://nextjs.org}.
+
+\bibitem{tailwind}
+``Tailwind {CSS} - {Rapidly} build modern websites without ever leaving your
+  {HTML}..'' \url{https://tailwindcss.com/}.
 
 \end{thebibliography}
