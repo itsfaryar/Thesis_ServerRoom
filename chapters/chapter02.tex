@@ -81,10 +81,10 @@ A data generator should have a random yet realistic pattern for effective system
                     \begin{itemize}
                         \item Parameters
                             \begin{description}
-                                \item[Starting dust sensor Value:] 220
-                                \item[Minimum possible dust sensor value:] 208
-                                \item[Maximum possible electricity dust sensor value:] 264
-                                \item[Maximum possible change in an iteration:] 1
+                                \item[Starting dust sensor Value:] 1
+                                \item[Minimum possible dust sensor value:] 0
+                                \item[Maximum possible dust sensor value:] 3
+                                \item[Maximum possible change in an iteration:] 0.5
                             \end{description}
                         \item Results can be seen in figure \ref{fig:gen_dust}
                             \begin{figure}
@@ -145,12 +145,12 @@ A data generator should have a random yet realistic pattern for effective system
                         \begin{itemize}
                             \item Parameters
                                 \begin{description}
-                                    \item[Starting electricity Current Value:] 220
-                                    \item[Minimum possible electricity Current:] 208
-                                    \item[Maximum possible electricity Current:] 264
+                                    \item[Starting electricity Current Value:] 30
+                                    \item[Minimum possible electricity Current:] 20
+                                    \item[Maximum possible electricity Current:] 40
                                     \item[Maximum possible change in an iteration:] 1
                                 \end{description}
-                            \item Results can be seen in figure \ref{fig:gen_voltage}
+                            \item Results can be seen in figure \ref{fig:gen_current}
                                 \begin{figure}
                                     \centering
                                     \captionsetup{type=figure}
@@ -169,7 +169,7 @@ A data generator should have a random yet realistic pattern for effective system
                                     \end{subfigure}
                                     
                                     \caption{Sample generated voltage sensor data }
-                                    \label{fig:gen_voltage}
+                                    \label{fig:gen_current}
                             \end{figure}
                         \end{itemize}
         
