@@ -1,4 +1,4 @@
-Designing and implementing an smart monitoring and management system of environmental and electrical conditions of server rooms
+Designing and implementing a smart monitoring and management system of environmental and electrical conditions of server rooms
 
 
 Thesis.pdf : Final pdf file
